@@ -1,5 +1,5 @@
 # AVR-Firmware-Softrock40
-Checkout my website for more information, [https://pe0fko.nl/SR-V9-Si570/]
+Checkout my website for more information, [pe0fko.nl](https://pe0fko.nl/SR-V9-Si570/)
 
 # Lates versions
 - V15.11 - AVR Firmware Softrock40 - AD9850 SI570
