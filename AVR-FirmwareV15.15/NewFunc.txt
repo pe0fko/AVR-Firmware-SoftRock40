@@ -1,0 +1,6 @@
+
+TO BE DONE
+==========
+- Use rotary-encoder to change the freq.
+	. Step size for 24/96 KHz
+- Change freq at PTT on.

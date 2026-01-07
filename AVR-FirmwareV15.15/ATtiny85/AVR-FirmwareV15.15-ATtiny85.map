@@ -1,0 +1,576 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulhi3.o)
+                              main.o (__mulhi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulsi3.o)
+                              DeviceSi570.o (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_udivmodhi4.o)
+                              DeviceSi570.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_block_attiny85.o)
+                              main.o (__eerd_block_tn85)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny85.o)
+                              main.o (__eerd_byte_tn85)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_block_attiny85.o)
+                              main.o (__eewr_block_tn85)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_byte_attiny85.o)
+                              main.o (__eewr_byte_tn85)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_word_attiny85.o)
+                              main.o (__eewr_word_tn85)
+
+Allocating common symbols
+Common symbol       size              file
+
+usbTxBuf            0xb               usbdrv.o
+I2CErrors           0x1               I2Copencollector.o
+Si570_Data          0x6               main.o
+SI570_OffLine       0x1               main.o
+replyBuf            0x8               main.o
+usbDeviceAddr       0x1               usbdrv.o
+usbRxToken          0x1               usbdrv.o
+usbInputBufOffset   0x1               usbdrv.o
+usbMsgPtr           0x2               usbdrv.o
+usbRxLen            0x1               usbdrv.o
+usbNewDeviceAddr    0x1               usbdrv.o
+usbCurrentTok       0x1               usbdrv.o
+usbConfiguration    0x1               usbdrv.o
+usbRxBuf            0x16              usbdrv.o
+FreqSmoothTune      0x4               DeviceSi570.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+LOAD main.o
+LOAD osccal.o
+LOAD I2Copencollector.o
+LOAD DeviceSi570.o
+LOAD DeviceAd9850.o
+LOAD usbdrv.o
+LOAD usbdrvasm.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x12d2
+ *(.vectors)
+ .vectors       0x00000000       0x1e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x0000001e        0x6 DeviceSi570.o
+ .progmem.data  0x00000024       0x58 usbdrv.o
+                0x00000058                usbDescriptorDevice
+                0x00000024                usbDescriptorString0
+                0x0000006a                usbDescriptorConfiguration
+                0x00000028                usbDescriptorStringVendor
+                0x00000042                usbDescriptorStringDevice
+                0x0000007c                . = ALIGN (0x2)
+                0x0000007c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000007c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000007c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000007c                __ctors_start = .
+ *(.ctors)
+                0x0000007c                __ctors_end = .
+                0x0000007c                __dtors_start = .
+ *(.dtors)
+                0x0000007c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000007c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+                0x0000007c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000007c        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+ *(.init2)
+ *(.init3)
+ .init3         0x00000088       0x14 main.o
+                0x00000088                dotInit3
+ *(.init3)
+ *(.init4)
+ .init4         0x0000009c       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_copy_data.o)
+                0x0000009c                __do_copy_data
+ .init4         0x000000b2       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_clear_bss.o)
+                0x000000b2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c2        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+ *(.init9)
+ *(.text)
+ .text          0x000000c6        0x2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+                0x000000c6                __vector_12
+                0x000000c6                __bad_interrupt
+                0x000000c6                __vector_6
+                0x000000c6                __vector_3
+                0x000000c6                __vector_11
+                0x000000c6                __vector_13
+                0x000000c6                __vector_7
+                0x000000c6                __vector_5
+                0x000000c6                __vector_4
+                0x000000c6                __vector_9
+                0x000000c6                __vector_2
+                0x000000c6                __vector_8
+                0x000000c6                __vector_14
+                0x000000c6                __vector_10
+ .text          0x000000c8      0x55e main.o
+                0x0000016c                usbFunctionSetup
+                0x000000c8                __vector_default
+                0x000000e0                main
+                0x000000ca                GetTemperature
+                0x00000462                usbFunctionWrite
+ .text          0x00000626       0x92 osccal.o
+                0x00000626                calibrateOscillator
+                0x000006a8                usbEventResetReady
+ .text          0x000006b8       0xd2 I2Copencollector.o
+                0x00000736                I2CSendByte
+                0x000006f4                I2CSendStop
+                0x00000708                I2CSend0
+                0x00000718                I2CSend1
+                0x0000076c                I2CReceiveByte
+                0x000006dc                I2CSendStart
+ .text          0x0000078a      0x516 DeviceSi570.o
+                0x0000087c                SetFilter
+                0x00000954                SetFreq
+                0x000008c6                Si570ReadRFREQ
+                0x00000bfa                DeviceInit
+                0x0000090c                Si570CmdReg
+ .text          0x00000ca0        0x0 DeviceAd9850.o
+ .text          0x00000ca0      0x252 usbdrv.o
+                0x00000cae                usbPoll
+                0x00000ca0                usbInit
+ .text          0x00000ef2      0x2fa usbdrvasm.o
+                0x00000f4a                __vector_1
+                0x00000ef2                usbCrc16
+                0x00000f1c                usbCrc16Append
+                0x00000f24                usbMeasureFrameLength
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulhi3.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulsi3.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_udivmodhi4.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_copy_data.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_clear_bss.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_block_attiny85.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny85.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_block_attiny85.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_byte_attiny85.o)
+ .text          0x000011ec        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_word_attiny85.o)
+                0x000011ec                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000011ec       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulhi3.o)
+                0x000011ec                __mulhi3
+ .text.libgcc   0x00001210       0x32 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulsi3.o)
+                0x00001210                __mulsi3
+ .text.libgcc   0x00001242       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_udivmodhi4.o)
+                0x00001242                __udivmodhi4
+ .text.libgcc   0x0000126a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+ .text.libgcc   0x0000126a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000126a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x0000126a       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_block_attiny85.o)
+                0x0000126e                __eerd_blraw_tn85
+                0x0000126a                __eerd_block_tn85
+ .text.avr-libc
+                0x0000128a       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny85.o)
+                0x0000128a                __eerd_byte_tn85
+ .text.avr-libc
+                0x0000129a       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_block_attiny85.o)
+                0x0000129a                __eewr_block_tn85
+ .text.avr-libc
+                0x000012ac       0x1c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_byte_attiny85.o)
+                0x000012ae                __eewr_r18_tn85
+                0x000012ac                __eewr_byte_tn85
+ .text.avr-libc
+                0x000012c8        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_word_attiny85.o)
+                0x000012c8                __eewr_word_tn85
+                0x000012ce                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000012ce        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+                0x000012ce                exit
+                0x000012ce                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000012ce        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000012d2                _etext = .
+
+.data           0x00800060       0x54 load address 0x000012d2
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+ .data          0x00800060       0x51 main.o
+                0x0080009f                usbDescriptorStringSerialNumber
+                0x00800060                R
+ .data          0x008000b1        0x0 osccal.o
+ .data          0x008000b1        0x0 I2Copencollector.o
+ .data          0x008000b1        0x0 DeviceSi570.o
+ .data          0x008000b1        0x0 DeviceAd9850.o
+ .data          0x008000b1        0x2 usbdrv.o
+                0x008000b1                usbTxLen
+ .data          0x008000b3        0x0 usbdrvasm.o
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulhi3.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulsi3.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_udivmodhi4.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_copy_data.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_clear_bss.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_block_attiny85.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny85.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_block_attiny85.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_byte_attiny85.o)
+ .data          0x008000b3        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_word_attiny85.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008000b4                . = ALIGN (0x2)
+ *fill*         0x008000b3        0x1 00
+                0x008000b4                _edata = .
+                0x008000b4                PROVIDE (__data_end, .)
+
+.bss            0x008000b4       0x46
+                0x008000b4                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008000b4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25/crttn85.o
+ .bss           0x008000b4        0x2 main.o
+ .bss           0x008000b6        0x0 osccal.o
+ .bss           0x008000b6        0x0 I2Copencollector.o
+ .bss           0x008000b6        0x4 DeviceSi570.o
+ .bss           0x008000ba        0x0 DeviceAd9850.o
+ .bss           0x008000ba        0x2 usbdrv.o
+ .bss           0x008000bc        0x0 usbdrvasm.o
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulhi3.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_mulsi3.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_udivmodhi4.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_exit.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_copy_data.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr25\libgcc.a(_clear_bss.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_block_attiny85.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eerd_byte_attiny85.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_block_attiny85.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_byte_attiny85.o)
+ .bss           0x008000bc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr25\libc.a(eewr_word_attiny85.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008000bc        0xf main.o
+                0x008000bc                Si570_Data
+                0x008000c2                SI570_OffLine
+                0x008000c3                replyBuf
+ COMMON         0x008000cb        0x1 I2Copencollector.o
+                0x008000cb                I2CErrors
+ COMMON         0x008000cc        0x4 DeviceSi570.o
+                0x008000cc                FreqSmoothTune
+ COMMON         0x008000d0       0x2a usbdrv.o
+                0x008000d0                usbTxBuf
+                0x008000db                usbDeviceAddr
+                0x008000dc                usbRxToken
+                0x008000dd                usbInputBufOffset
+                0x008000de                usbMsgPtr
+                0x008000e0                usbRxLen
+                0x008000e1                usbNewDeviceAddr
+                0x008000e2                usbCurrentTok
+                0x008000e3                usbConfiguration
+                0x008000e4                usbRxBuf
+                0x008000fa                PROVIDE (__bss_end, .)
+                0x000012d2                __data_load_start = LOADADDR (.data)
+                0x00001326                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000fa        0x0
+                0x008000fa                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000fa                PROVIDE (__noinit_end, .)
+                0x008000fa                _end = .
+                0x008000fa                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000       0x3f
+ *(.eeprom*)
+ .eeprom        0x00810000       0x3f main.o
+                0x00810000                E
+                0x0081003f                __eeprom_end = .
+
+.fuse           0x00820000        0x3
+ *(.fuse)
+ .fuse          0x00820000        0x3 main.o
+                0x00820000                __fuse
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock           0x00830000        0x1
+ *(.lock*)
+ .lock          0x00830000        0x1 main.o
+                0x00830000                __lock
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xc8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 main.o
+ .debug_aranges
+                0x00000028       0x20 osccal.o
+ .debug_aranges
+                0x00000048       0x20 I2Copencollector.o
+ .debug_aranges
+                0x00000068       0x20 DeviceSi570.o
+ .debug_aranges
+                0x00000088       0x20 usbdrv.o
+ .debug_aranges
+                0x000000a8       0x20 usbdrvasm.o
+
+.debug_pubnames
+                0x00000000      0x389
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xee main.o
+ .debug_pubnames
+                0x000000ee       0x41 osccal.o
+ .debug_pubnames
+                0x0000012f       0x7e I2Copencollector.o
+ .debug_pubnames
+                0x000001ad       0x71 DeviceSi570.o
+ .debug_pubnames
+                0x0000021e      0x16b usbdrv.o
+
+.debug_info     0x00000000     0x1f4c
+ *(.debug_info)
+ .debug_info    0x00000000      0x834 main.o
+ .debug_info    0x00000834       0xe5 osccal.o
+ .debug_info    0x00000919      0x452 I2Copencollector.o
+ .debug_info    0x00000d6b      0x92e DeviceSi570.o
+ .debug_info    0x00001699       0x64 DeviceAd9850.o
+ .debug_info    0x000016fd      0x7ce usbdrv.o
+ .debug_info    0x00001ecb       0x81 usbdrvasm.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xa79
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2fd main.o
+ .debug_abbrev  0x000002fd       0x8a osccal.o
+ .debug_abbrev  0x00000387      0x15d I2Copencollector.o
+ .debug_abbrev  0x000004e4      0x335 DeviceSi570.o
+ .debug_abbrev  0x00000819       0x33 DeviceAd9850.o
+ .debug_abbrev  0x0000084c      0x219 usbdrv.o
+ .debug_abbrev  0x00000a65       0x14 usbdrvasm.o
+
+.debug_line     0x00000000     0x14fa
+ *(.debug_line)
+ .debug_line    0x00000000      0x70e main.o
+ .debug_line    0x0000070e       0xed osccal.o
+ .debug_line    0x000007fb      0x2ae I2Copencollector.o
+ .debug_line    0x00000aa9      0x4b8 DeviceSi570.o
+ .debug_line    0x00000f61       0x3e DeviceAd9850.o
+ .debug_line    0x00000f9f      0x363 usbdrv.o
+ .debug_line    0x00001302      0x1f8 usbdrvasm.o
+
+.debug_frame    0x00000000      0x1f0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x70 main.o
+ .debug_frame   0x00000070       0x30 osccal.o
+ .debug_frame   0x000000a0       0x90 I2Copencollector.o
+ .debug_frame   0x00000130       0x90 DeviceSi570.o
+ .debug_frame   0x000001c0       0x30 usbdrv.o
+
+.debug_str      0x00000000      0x7fb
+ *(.debug_str)
+ .debug_str     0x00000000      0x306 main.o
+                                0x362 (size before relaxing)
+ .debug_str     0x00000306       0x67 osccal.o
+                                0x111 (size before relaxing)
+ .debug_str     0x0000036d       0x97 I2Copencollector.o
+                                0x196 (size before relaxing)
+ .debug_str     0x00000404      0x19d DeviceSi570.o
+                                0x3e2 (size before relaxing)
+ .debug_str     0x000005a1       0x12 DeviceAd9850.o
+                                 0xbc (size before relaxing)
+ .debug_str     0x000005b3      0x248 usbdrv.o
+                                0x3b0 (size before relaxing)
+
+.debug_loc      0x00000000      0xae8
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x330 main.o
+ .debug_loc     0x00000330       0xaf osccal.o
+ .debug_loc     0x000003df       0xa5 I2Copencollector.o
+ .debug_loc     0x00000484      0x2f4 DeviceSi570.o
+ .debug_loc     0x00000778      0x370 usbdrv.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(AVR-FirmwareV15.15-ATtiny85.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x78
+ .debug_ranges  0x00000000       0x40 main.o
+ .debug_ranges  0x00000040       0x38 usbdrv.o
